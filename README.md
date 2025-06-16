@@ -1,12 +1,60 @@
-# React + Vite
+# FakeStore E-Commerce App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This is a front-end React application that interacts with the [FakeStoreAPI](https://fakestoreapi.com/) to simulate an e-commerce experience. Users can view, add, edit, and delete products through API calls. Although responses to POST, PUT, and DELETE requests appear successful, no actual data is changed on the backend—this is a mock API for learning purposes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- View product listings from FakeStoreAPI
+- View individual product details
+- Add a new product using a form
+- Edit existing product data
+- Delete a product with confirmation
+- Navigation bar with routing
+- Responsive design using React Bootstrap
+- API loading and error handling
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+- React
+- React Router
+- Axios
+- React Bootstrap
+- FakeStoreAPI
+
+## Installation
+
+1. Clone this repository  
+   ```bash
+   git clone https://github.com/yourusername/fakestore-app.git
+   ```
+
+2. Navigate into the project  
+   ```bash
+   cd fakestore-app
+   ```
+
+3. Install dependencies  
+   ```bash
+   npm install
+   ```
+
+4. Start the development server  
+   ```bash
+   npm run dev
+   ```
+
+## Scripts
+
+- `npm run dev` – Starts the local development server
+- `npm run build` – Builds the app for production
+
+## Notes
+
+- FakeStoreAPI is a mock API. Data changes will not persist.
+- Designed for educational and frontend API interaction practice only.
+
+## License
+
+This project is for learning purposes.
